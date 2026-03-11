@@ -7,18 +7,18 @@ Permite explorar, visualizar y hacer predicciones de precios usando diferentes f
 
 ---
 
-## 📂 Estructura del proyecto
-    ├── README.md
-    ├── app.py
-    ├── vehicles_us.csv
-    ├── vehicles_us_clean.csv
-    ├── requirements.txt
-    └── notebooks
-        └── EDA.ipynb
+## 📂 Estructura del Proyecto
+.
+├── assets/             # Logos e imágenes de la app
+├── data/               # Datasets (.csv) crudos y limpios
+├── notebooks/          # Análisis Exploratorio (EDA.ipynb)
+├── src/                # Scripts de Python adicionales
+├── requirements.txt    # Librerías necesarias
+└── README.md           # Este archivo
 
-- **app.py** → Archivo principal de la aplicación en Streamlit.  
-- **vehicles_us.csv** → Conjunto de datos usado para el análisis.  
-- **notebooks/EDA.ipynb** → Análisis exploratorio inicial de los datos.  
+- **src/app.py** → Archivo principal de la aplicación en Streamlit.  
+- **data/vehicles_us.csv** → Conjunto de datos usado para el análisis.  
+- **notebooks/notebooks/EDA.ipynb** → Análisis exploratorio inicial de los datos.  
 - **requirements.txt** → Librerías necesarias para ejecutar el proyecto.  
 - **README.md** → Este archivo.
 
