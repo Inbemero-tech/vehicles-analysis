@@ -210,4 +210,5 @@ __marimo__/
 *.csv
 *.xlsx
 *.json
-data/
+data/*
+!data/vehicles_us_clean.csv
