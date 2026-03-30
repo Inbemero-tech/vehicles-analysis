@@ -31,7 +31,7 @@ y analiza las tendencias de precios, kilometraje y más.
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("../data/vehicles_us_clean.csv")
+        df = pd.read_csv("./data/vehicles_us_clean.csv")
         st.success("✅ Datos cargados correctamente")
         return df
     except FileNotFoundError:
